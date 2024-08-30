@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.3/lottie_svg.min.js"></script>
+    <title>Gift for my Bebita</title>
+    <link rel="icon" href="icons/tab-icon.png"/>
+    <link rel="stylesheet" href="./style/css/yes_styles.css">
+</head>
+<body style="font-family: 'Comic Neue';" class="relative">
+        <div class="container">
+            <div >
+                <h1 class = "header_text">Yeheyyy</h1>
+            </div>
+            <div class="gif_container">
+                <img src="./style/images/cute-cat.gif" alt="Cute animated illustration">
+            </div>
+            <p id = "click-env">Ablihi ang envelope bayot</p>
+            <div class="background">
+                <div class="one">
+                    <!-- <img src="img/back.jpg" alt=""> -->
+                    <div class="container">
+                        <div class="envelope-wrapper">
+                            <div class="envelope">
+                                <div class="letter">
+                                    <div class="text">
+                                        <strong style="font-size: .89rem;">Sara bayot,</strong>
+                                        <p id="env-text" style="text-indent: 15px; font-size: .65rem;">
+                                            <br>Belated Happy 2nd Monthsary my baby, Thank you for being the most bayot partner anyone could ever ask for. Your gayness, your egatness, and your love mean everything to me. I love you more than words can express, today, every day and forever. See you soon puhon
+                                        </p><br>
+                                        <p class="love">I LOVE YOU SO MUCH</p>
+                                        <div class="pana">
+                                            <img src="./style/images/heartarrow.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="heart"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-[100vh] z-0 relative">
+                <!-- BACKGROUND -->
+                <div class="absolute top-0 w-full h-full flex justify-center items-center">
+                    <!-- COUNTER -->
+                    <div class="flex flex-col bg-neutral-100 gap-5 relative border-2 z-10 border-black px-4 pb-3 shadow-md pt-6 rounded-md max-w-md mx-auto">
+                        <!-- GIFS -->
+                        <div class="absolute top-2 right-2 w-6">
+                            <img class="w-full" src="icons/heart.svg" alt="">
+                        </div>
+                        <div class="absolute -top-10 -left-24 w-24">
+                            <img class="w-full -rotate-6" src="https://media.tenor.com/dg7Th23TzFUAAAAi/cat_-vodk.gif" alt="">
+                        </div>
+                        <div class="absolute -bottom-10 -right-24 w-24">
+                            <img class="w-full" src="https://media.tenor.com/LrSL7XDKVbgAAAAi/peachcat-cat.gif" alt="">
+                        </div>
+                        <div class="absolute top-[-5rem] right-10 w-24">
+                            <img class="w-full" src="https://media.tenor.com/A5VhCveZ_ygAAAAi/peach-and-goma-peach-goma.gif" alt="">
+                        </div>
+                        <div class="absolute -bottom-20 left-8 w-28">
+                            <img class="w-full" src="https://media.tenor.com/ewJrc9fZeaQAAAAi/prots-masaj.gif" alt="">
+                        </div>
+            
+                        <!-- DATE COUNTER -->
+                        <div class="flex flex-col sm:flex-row gap-4 sm:gap-5" id="myCountdown">
+                            <div class="bg-transparent border-2 border-black rounded-md w-full sm:w-32 h-40 flex justify-center items-center flex-col gap-4 sm:gap-10">
+                                <h1 id="" class="text-4xl sm:text-6xl font-bold">2</h1>
+                                <p class="font-bold text-lg sm:text-xl text-red-700">Months</p>
+                            </div>
+                            <div class="bg-transparent border-2 border-black rounded-md w-full sm:w-32 h-40 flex justify-center items-center flex-col gap-4 sm:gap-10">
+                                <h1 id="" class="text-4xl sm:text-6xl font-bold">3</h1>
+                                <p class="font-bold text-lg sm:text-xl text-red-700">Days</p>
+                            </div>
+                            <div class="bg-transparent border-2 border-black rounded-md w-full sm:w-32 h-40 flex justify-center items-center flex-col gap-4 sm:gap-10">
+                                <h1 id="" class="text-4xl sm:text-6xl font-bold">7,637</h1>
+                                <p class="font-bold text-lg sm:text-xl text-red-700">Seconds</p>
+                            </div>
+                        </div>
+                        <h1 class="text-center font-bold text-sm sm:text-base">Since June 27, 2024</h1>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            <script>
+                const envelope = document.querySelector('.envelope-wrapper');
+                envelope.addEventListener('click', () => {
+                    envelope.classList.toggle('flap');
+                    envelope.classList.toggle('open');
+                });
+            </script>
+            
+            <script src="app.js"></script> 
+        </div>
+
+    </body> 
+</html>
